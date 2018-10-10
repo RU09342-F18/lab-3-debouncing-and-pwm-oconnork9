@@ -1,3 +1,28 @@
+# Lab 3: Software PWM
+
+## Summary
+ 
+
+## General Functionality
+ 
+ 
+## Inputs and Outputs
+
+### MSP430F5529
+ INPUTS: P1.1-Tactile Button  
+ OUTPUTS: P1.0- Red LED, P4.7-Green LED  
+ Timers: TimerA0
+ 
+### MSP430G2553
+ INPUTS: P1.3-Button  
+ OUTPUTS: P1.0-Green LED, P1.6-Red LED  
+ Timers: TimerA0
+ 
+## Authors
+
+   Author: Kieran O'Connor  
+   Last Editted: 9/28/2018
+   
 # Software PWM
 Most microprocessors will have a Timer module, but depending on the device, some may not come with pre-built PWM modules. Instead, you may have to utilize software techniques to synthesize PWM on your own.
 
