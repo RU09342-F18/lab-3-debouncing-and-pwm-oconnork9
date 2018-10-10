@@ -9,13 +9,13 @@
 ## Inputs and Outputs
 
 ### MSP430FR2311
- INPUTS: P1.1-Button
- OUTPUTS: P1.0- Red LED, P2.0-Green LED
+ INPUTS: P1.1-Button  
+ OUTPUTS: P1.0- Red LED, P2.0-Green LED  
  Timers: TimerB1
  
 ### MSP430G2553
  INPUTS: P1.3-Button  
- OUTPUTS: P1.0-Green LED, P1.6-Red LED
+ OUTPUTS: P1.0-Green LED, P1.6-Red LED  
  Timers: TimerA0
  
 ## Authors
