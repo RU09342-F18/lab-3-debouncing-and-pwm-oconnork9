@@ -55,10 +55,3 @@ __interrupt void Port_1(void)
     }
     P1IFG &= ~BIT3; //Clears interrupt flags
 }
-
-#pragma vector=TIMER0_A1_VECTOR
-__interrupt void Timer0_A0(void)
-{
-
-
-}
