@@ -1,3 +1,28 @@
+# Lab 3: Debouncing
+
+## Summary
+ 
+
+## General Functionality
+
+ 
+## Inputs and Outputs
+
+### MSP430F5529
+ INPUTS: P1.1-Button
+ OUTPUTS: P1.0- Red LED, P4.7-Green LED
+ Timer: TimerA0
+ 
+### MSP430FR2311
+ INPUTS: P1.3-Button  
+ OUTPUTS: P1.0-Green LED, P2.0-Red LED
+ Timer: TimerB0
+ 
+## Authors
+
+   Author: Kieran O'Connor  
+   Last Editted: 10/5/2018
+   
 # Software Debouncing
 In previous labs, we talked about how objects such as switches can cause some nasty effects since they are actually a mechanical system at heart. We talked about the simple hardware method of debouncing, but due to the many different design constraints, you may not be able to add or adjust hardware. Debouncing is also only one of many applications which would require the use of built in Timers to allow for other processes to take place.
 
