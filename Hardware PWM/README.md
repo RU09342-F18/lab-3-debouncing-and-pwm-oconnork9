@@ -1,10 +1,10 @@
 # Lab 3: Hardware PWM
 
 ## Summary
- 
+ These programs use the MSP430FR2311 and MSP430G2553 microprocessors. The programs when a button is hit changes the light level of the LED. There are ten different levels of light given with each of the programs starting at half capacity.
 
 ## General Functionality
- 
+ Each of these programs attach an LED directly to a built in timer set to 1kHz. Capture compare register 1 is set to change in value everytime a button is pressed the duty cycle goes up by 10% and starts at 50%. When it reaches 100% and the button is pressed the duty cycle goes back to 0%.
  
 ## Inputs and Outputs
 
