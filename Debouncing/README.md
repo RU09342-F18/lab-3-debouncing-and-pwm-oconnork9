@@ -1,10 +1,10 @@
 # Lab 3: Debouncing
 
 ## Summary
- 
+ The two programs that were created were made with two boards MSP430F5529 and the MSP430FR2311 the reason theres were chosen rather than the MSP430G2553 was the effective deboucing already integrated into the board. The boards debounce by waiting 1/8 of a second to preform an action which just toggles the button. Delaying this stops the LED from being triggered by the button again until the action is preformed.
 
 ## General Functionality
-
+ The programs work with a timer when the button is pressed and release the timer starts after 1/8 of a second it toggles the button using an interrupt.
  
 ## Inputs and Outputs
 
@@ -21,7 +21,7 @@
 ## Authors
 
    Author: Kieran O'Connor  
-   Last Editted: 10/5/2018
+   Last Editted: 10/9/2018
    
 # Software Debouncing
 In previous labs, we talked about how objects such as switches can cause some nasty effects since they are actually a mechanical system at heart. We talked about the simple hardware method of debouncing, but due to the many different design constraints, you may not be able to add or adjust hardware. Debouncing is also only one of many applications which would require the use of built in Timers to allow for other processes to take place.
