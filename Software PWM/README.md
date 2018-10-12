@@ -1,15 +1,15 @@
 # Lab 3: Software PWM
 
 ## Summary
- 
+ Theses programs included use the MSP430F5529 and MSP430G2553. Each of the programs start at a light level of 50% for a set LED, rises by 10% everytime a button is pressed and resets to 0% after the button is pressed at 100%.
 
 ## General Functionality
- 
+ For these programs the an LED is originally set to a duty cycle of 50% with a timer with a frequency of 1kHz. With the button the duty cycle is changed everytime a button is pressed triggering an interrupt changing the value with a case statement increasing the duty cycle by 10% and reset to 0 when 100% is reached. 
  
 ## Inputs and Outputs
 
 ### MSP430F5529
- INPUTS: P1.1-Tactile Button  
+ INPUTS: P1.1-Button  
  OUTPUTS: P1.0- Red LED, P4.7-Green LED  
  Timers: TimerA0
  
@@ -21,7 +21,7 @@
 ## Authors
 
    Author: Kieran O'Connor  
-   Last Editted: 9/28/2018
+   Last Editted: 10/10/2018
    
 # Software PWM
 Most microprocessors will have a Timer module, but depending on the device, some may not come with pre-built PWM modules. Instead, you may have to utilize software techniques to synthesize PWM on your own.
